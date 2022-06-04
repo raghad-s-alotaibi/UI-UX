@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> 
+            Dojonary
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body> 
+    <!--NAV BAR-->
+    <div class="main-container">
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <ul class="nav-links" >
+            <li class="li">
+                <form>
+                    <input type="text" value="Search">
+                </form>
+            </li>
+            <li><button class="log-in-btn" onclick="changeText(this)">Log In</button></li>
+        </ul>
+    </div>
+    <!-- MY MAIN CONTAINER  -->
+    <div class="content-container">
+        <div class="card">
+            <div class="card-container">
+                <div class="ninja-pronunc">
+                    <h1>ninja</h1>
+                    <p class="noun">noun</p>
+                    <p>Plural: <span class="noun">ninjas</span></p>
+                </div>
+                <div>
+                    <p class="ninja-def">A practitoner skilld in the
+                        <a href="#">Japanese</a> art of
+                        <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button class="likes-btn" onclick="alert('Ninja was liked')">13 likes</button>
+            </div>
+        </div>
+        <div class="dojonary"> 
+                <div class="dojonary-content">
+                    <h3>Dojonary is <br> defined by 
+                        <span>YOU<span>
+                    </h3>
+                    <br>
+                    <button class="add-btn" onclick="hide(this)">Add Definition</button>
+                </div>    
+        </div>
+         <div class="card">
+            <div class="card-container">
+                <div class="ninja-pronunc">
+                    <h1>ninja</h1>
+                    <p class="noun">noun</p>
+                    <p>Plural: <span class="noun">ninjas</span></p>
+                </div>
+                <div>
+                    <p class="ninja-def">A <a href="#">programmer</a>
+                        who breaks down problems with
+                        <a href="#">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+            <div>
+                <button class="likes-btn" onclick="alert('Ninja was liked')">37 likes</button>
+            </div>
+        </div>
+        </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    font-family: 'Patrick Hand', cursive;
+}
+h1{ 
+    color: white;
+    background-color: black;
+}
+h1 span{ 
+    color: rgb(131, 207, 250);
+}
+h2{ 
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background-color: blueviolet;
+}
+h3{ 
+    text-align: right;
+    text-decoration: underline;
+    color: black;
+    background-color:  rgb(131, 207, 250);
+}

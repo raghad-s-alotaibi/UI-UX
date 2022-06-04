@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div id="toDo" class="header">
+        <h2 style="margin:5px">My To Do List &lt;3</h2>
+        <input type="text" id="myInput" placeholder="Start typing...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myTodo">
+        <li>Do all of my assignments this weekend :(</li>
+        <li>Update my laptop to windows 11</li>
+        <li>Start watching "Stranger things" before someone ruin it for me!!!</li>
+        <li>Buy a gif for my friend's birthday</li>
+    </ul>
+    <img class="img" src="kuroneko_l.png">
+    <div class="small-text">
+        <small>Click on todo to toggle checked. </small>
+        <small>Click on "X" to delete todo</small>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

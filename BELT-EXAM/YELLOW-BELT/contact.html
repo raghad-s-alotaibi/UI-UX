@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainContent">
+        <div class="profile">
+            <img src="letter.jpg">
+            <div>
+                <h2>Contact me!!</h2>
+                <p>please write down your Information:</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your full name..">
+
+                <label for="email">Your E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Your E-mail..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">KSA</option>
+                    <option value="canada">UAE</option>
+                    <option value="usa">KW</option>
+                    <option value="usa">BAHRAIN</option>
+                    <option value="usa">QATAR</option>
+                </select>
+                <label for="message">Your Message</label>
+                <textarea type="text" id="message"></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

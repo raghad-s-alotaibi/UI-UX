@@ -1,0 +1,10 @@
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+#icon{ 
+    width: 100px;
+    height: 100px;
+}
+table, th , td {
+    border-style: solid;
+}

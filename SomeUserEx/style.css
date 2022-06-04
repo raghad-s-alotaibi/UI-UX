@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.main-container {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    left: 25%;
+    top: 0px;
+}
+
+h2 {
+    position: absolute;
+    left: 40%;
+    font-size: 30px;
+}
+
+.content-container {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 18%;
+}
+
+/*NAV BAR*/
+.nav {
+    background-color: rgb(80, 80, 80);
+    margin: 0;
+    padding: 1rem 0;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+    color: #fff;
+    height: 35px;
+}
+
+.nav-title {
+    position: absolute;
+    margin: auto;
+    margin-left: 1em;
+}
+
+/* ======CARDS======= */
+.card {
+    width: 60%;
+    height: 26%;
+    border: 2px rgb(155, 155, 155) solid;
+    position: absolute;
+    left: 40%;
+    top: 0%;
+}
+
+.card-2 {
+    width: 60%;
+    height: 26%;
+    border: 2px rgb(155, 155, 155) solid;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.card-3 {
+    width: 60%;
+    height: 26%;
+    border: 2px rgb(155, 155, 155) solid;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+
+/* ================= */
+.headline {
+    position: absolute;
+    left: 3%;
+    top: 3%;
+
+}
+
+.like-box {
+    position: absolute;
+    left: 55%;
+    top: 5%;
+}
+
+.filler-text {
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    font-size: 20px;
+}
+
+/* PROFILE */
+.profile {
+    width: 35%;
+    height: 70%;
+    border: 2px rgb(155, 155, 155) solid;
+    position: relative;
+}
+
+.profile-content {
+    text-align: center;
+    margin-top: 50%;
+
+}
+
+.profile-pic img {
+    position: absolute;
+    width: 70px;
+    left: 35%;
+    top: 10%;
+}
+
+/* BUTTONS */
+.likes-btn {
+    width: 90px;
+    border-style: solid;
+    border-color: #0000;
+    background-color: rgb(250, 213, 89);
+    box-shadow: rgba(0, 0, 0, 0.388) 4px 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+}

@@ -1,0 +1,127 @@
+* {
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+#header {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(183, 183, 183) 2px 2px 10px;
+    color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 96%;
+    height: 5%;
+}
+
+#header h1 {
+    margin-left: 8%;
+}
+
+.cities {
+    margin-right: 8%;
+
+}
+
+#mainContent {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+#sanJose {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgb(50, 50, 50)solid 3px;
+    color: rgb(69, 69, 69);
+}
+
+#sanJose h2 {
+    font-size: 29px;
+}
+
+#tempUnitSelector {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#days {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.day {
+    margin: 30px 0px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(183, 183, 183) 2px 2px 30px;
+    color: rgb(69, 69, 69);
+    width: 250px;
+    height: 350px;
+    text-align: center;
+}
+
+.day h3 {
+    color: rgb(103, 134, 167);
+}
+
+.day h3 {
+    font-size: 24pt;
+}
+
+.day img {
+    width: 80px;
+    margin-top: 30px;
+}
+
+.temps {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 16pt;
+}
+
+.high {
+    color: rgb(169, 66, 66)
+}
+
+.low {
+    color: rgb(77, 117, 197);
+}
+
+#message {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(190, 188, 188);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 15%;
+    padding: 0px 5px;
+    position: fixed;
+    left: 25%;
+    top: 82%;
+}
+
+#message img {
+    padding-right: 7px;
+}
+
+#bigWarning {
+    font-size: 15pt;
+    font-weight: 800;
+}
+
+button {
+    width: 25%;
+    height: 30%;
+    font-size: 10pt;
+
+}

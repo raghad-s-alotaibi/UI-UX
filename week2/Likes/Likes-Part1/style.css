@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.main-container {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    left: 35%;
+    top: 0px;
+}
+
+.content-container {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+/*NAV BAR*/
+
+/* ================= */
+.card {
+    width: 55%;
+    height: 26%;
+    border: 2px rgb(155, 155, 155) solid;
+    left: 0%;
+}
+
+.headline {
+    position: absolute;
+    left: 3%;
+    top: 3%;
+
+}
+
+.like-box {
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+
+.filler-text {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    font-size: 20px;
+}
+
+/* BUTTONS */
+.likes-btn {
+    width: 90px;
+    border-style: solid;
+    border-color: #0000;
+    background-color: rgb(250, 213, 89);
+    box-shadow: rgba(0, 0, 0, 0.388) 4px 5px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+/* =========== */
+.dojonary {
+    width: 40%;
+    height: 20%;
+    border: 2px rgb(155, 155, 155) solid;
+    position: absolute;
+    left: 59.8%;
+    top: 0%;
+}
+
+.dojonary-content {
+    padding: 15px;
+}

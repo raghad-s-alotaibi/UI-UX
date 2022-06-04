@@ -1,0 +1,313 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ===HEADER AND NAV ==== */
+#header {
+    margin: 0 auto;
+    padding: 1rem 0;
+    background-color: rgb(225, 225, 225);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 0.5px #000000;
+}
+
+.nav-title {
+    margin: auto;
+    margin-left: 2em;
+    letter-spacing: 1px;
+}
+
+.nav-title span {
+    color: rgb(235, 202, 217);
+}
+
+.nav {
+    margin-right: 8%;
+
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #5c5c5c;
+    padding: 10px;
+    text-shadow: 0px 0px #000000;
+}
+
+/* ===INTRO BOX ==== */
+#mainContent {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 80vw;
+    color: #5c5c5c;
+}
+
+.profile {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+
+}
+
+.profile img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin: 2%;
+    margin-left: 1%;
+}
+
+#intro-text h3 {
+    font-size: 20pt;
+    padding-bottom: 1%;
+    letter-spacing: 1px;
+}
+
+#intro-text p {
+    word-spacing: 10px;
+}
+
+/* === PROJECT BOX ==== */
+.portfolio-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3%;
+
+}
+
+.project-1 {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(69, 69, 69);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-image: url("gift.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+}
+
+.project-1:hover {
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.project-1 p {
+    text-align: center;
+    margin: 5%;
+    margin-top: 50%;
+    padding-top: 2%;
+    font-size: 30pt;
+    color: #fff;
+    text-shadow: #2d2d2d 1px 1px;
+    border-bottom: #fff solid 2px;
+
+}
+
+.project-2 {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(69, 69, 69);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-image: url("find-me.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+}
+
+.project-2:hover {
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.project-2 p {
+    text-align: center;
+    margin: 5%;
+    margin-top: 50%;
+    padding-top: 2%;
+    font-size: 30pt;
+    color: #fff;
+    text-shadow: #2d2d2d 1px 1px;
+    border-bottom: #fff solid 2px;
+
+}
+
+.project-3 {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(69, 69, 69);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-image: url("myBook.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+}
+
+.project-3:hover {
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.project-3 p {
+    text-align: center;
+    margin: 5%;
+    margin-top: 50%;
+    padding-top: 2%;
+    font-size: 30pt;
+    color: #fff;
+    text-shadow: #2d2d2d 1px 1px;
+    border-bottom: #fff solid 2px;
+
+}
+
+small {
+    color: #fff;
+    font-size: 12pt;
+    text-shadow: #2d2d2d 1px 1px;
+
+}
+
+/* === SKILLS BOX ==== */
+
+.skills-box {
+    margin-top: 1%;
+    margin-bottom: 5%;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Style the header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 202, 217);
+    padding: 10px 10px;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.header h2 {
+    letter-spacing: 4px;
+}
+
+
+/* the input */
+.skillInput {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/*"Add" button */
+.addBtn {
+    padding: 10px;
+    width: 20%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+/* ===CONTACT PAGE=== */
+
+div.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+#fname,
+#email,
+select,
+#message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submit {
+    width: 100%;
+    background-color: rgb(234, 191, 226);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(184, 153, 178);
+}

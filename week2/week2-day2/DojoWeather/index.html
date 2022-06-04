@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>
+        DojoWeather
+    </title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>DojoWeather</h1>
+        <div class="cities">
+            <a href="#" class="city" onclick="alert('Loading weather report...')">Burbank</a>
+            <a href="#" class="city" onclick="alert('Loading weather report...')">Chicago</a>
+            <a href="#" class="city" onclick="alert('Loading weather report...')">Dallas</a>
+        </div>
+    </div>
+    <div id="mainContent">
+        <div id="sanJose">
+            <h2>San Jose</h2>
+            <div id="tempUnitSelector">
+                <p>show temperature in </p>
+                <select name="temp change" id="unitSelector" onchange="convert(this)">
+                    <option value="c">°C</option>
+                    <option value="f">°F</option>
+                </select>
+            </div>
+        </div>
+        <div id="days">
+            <div class="day">
+                <h3>Today</h3>
+                <img src="rainy.svg" alt="rainy image">
+                <p>some rain</p>
+                <div class="temps">
+                    <p class="high"> <span class="tempurature" id="temp1">24</span>°</p>
+                    <p class="low"> <span class="tempurature" id="temp2">18</span>°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Tomorrow</h3>
+                <img src="sunny.svg" alt="sunny image">
+                <p>some sun</p>
+                <div class="temps">
+                    <p class="high"> <span class="tempurature" id="temp3">27</span>°</p>
+                    <p class="low"> <span class="tempurature" id="temp4">19</span>°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Friday</h3>
+                <img src="cloudy.svg" alt="cloudy image">
+                <p>some clouds</p>
+                <div class="temps">
+                    <p class="high"> <span class="tempurature" id="temp5">24</span>°</p>
+                    <p class="low"> <span class="tempurature" id="temp6">18</span>°</p>
+                </div>
+            </div>
+            <div class="day">
+                <h3>Saturday</h3>
+                <img src="sunny.svg" alt="sunny image">
+                <p>some sun</p>
+                <div class="temps">
+                    <p class="high"> <span class="tempurature" id="temp7">24</span>°</p>
+                    <p class="low"> <span class="tempurature" id="temp8">18</span>°</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="message">
+        <img src="cookie.svg" fill="white" alt="cookie image">
+        <div>
+            <p id="bigWarning">Stop! Cookie Time</p>
+            <p> We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                features and to analyse our traffic. <a href="#">Read more...</a>
+            </p>
+        </div>
+        <button onclick="hide(this)">I accept</button>
+    </div>
+</body>
+
+</html>

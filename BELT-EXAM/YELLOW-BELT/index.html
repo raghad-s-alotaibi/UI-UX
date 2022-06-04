@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A web page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1 class="nav-title"><span>R</span>aghad Alotaibi</h1>
+        <div class="nav">
+            <a href="index.html" class="nav-links">Home</a>
+            <a href="about.html" class="nav-links">About me</a>
+            <a href="contact.html" class="nav-links">Contact me</a>
+        </div>
+
+    </div>
+    <div id="mainContent">
+        <div class="profile">
+            <img src="profile-pic.jpg" alt="My Profile Picture">
+            <div id="intro-text">
+                <h3>Introduction</h3>
+                <p>An achievement-oriented kind of girl, recent computer science graduate and skilled in Java and
+                    Python.
+                    Enthusiastic about Application and Web Development / UI and UX Design / Information Technology and
+                    Design!.
+                    I love to be surrounded by an ambitious team that has family vibes :D .</p>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <div class="project-1">
+                <p>SERIN</p>
+                <small>A website for choosing gift</small>
+            </div>
+            <div class="project-2">
+                <p>Find me, Heal me</p>
+                <small>Application to help stray animal</small>
+            </div>
+            <div class="project-3">
+                <p>MyBook</p>
+                <small>A website for sharing books</small>
+            </div>
+        </div>
+        <div id="myDIV" class="header">
+            <h2 style="margin:5px">My Skills</h2>
+            <input type="text" class="skillInput" id="myInput" placeholder="Enter a new skill...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+        <div class="skills-box">
+            <ul id="myUL">
+                <li>Application Development</li>
+                <li>Web Development</li>
+                <li>Python, Java, Kotlin</li>
+                <li>UI/UX Design</li>
+                <li>Android Development</li>
+            </ul>
+
+        </div>
+        <br>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> 
+            Registration Form
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" href="form.css"> 
+    </head>
+    <bod>
+        <h1>Registration Form</h1>
+        <form action="/action_page.php">
+            <div>
+                <label for="fname">First name:*</label>
+                <input type="text" id="fname" name="fname" value="">
+            </div>
+            <div>
+                <label for="lname">Last name:*</label>
+                <input type="text" id="lname" name="lname" value="">
+            </div>
+            <div>
+                <label for="lname">Email Address:*</label>
+                <input type="email" id="email" name="email" value="">
+            </div>
+            <div>
+                <label for="lname">Password:*</label>
+                <input type="password" id="password" name="email" value="">
+            </div>
+            <div> 
+                <label for="lname">Birthday:*</label>
+                <input type="date" id="birthday" name="email" value="">
+            </div>
+            <div> 
+                <p>Gender Identity:</p>
+                <input type="radio" id="male" name="gender_id" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender_id" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="non_binary" name="gender_id" value="Non-binary">
+                <label for="non_binary">Non-binary</label>
+                <input type="radio" id="no_answer" name="gender_id" value="No Answer">
+                <label for="no_answer">I prefer not to answer</label>
+            </div>
+            <div> 
+                <p>A short description about myself:</p>
+                <textarea  id="desc" name="desc"></textarea>
+            </div>
+            <div> 
+                <label for="fav_lang">Favorite Language:</label>
+                <select name="fav_lang" id="fav_lang">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Java">Java</option>
+                    <option value="C++">C++</option>
+                    <option value="Python">Python</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="email_updates" name="email_updates" value="email_updates">
+                <label for="email_updates"> Yes, I would like to receive periodic updates</label>
+            </div> 
+            <div>
+                <input type="submit" value="Create Account">
+            </div>
+            <p>* Indicates a required field</p>
+
+          </form> 
+    </body>
+</html>
