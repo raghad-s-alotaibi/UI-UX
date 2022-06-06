@@ -11,18 +11,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f1f1f1;
 }
 
 .header img {
     width: 10%;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    background-color: #f1f1f1;
-    padding: 10px;
 }
 
 .grid-item-c1 {
