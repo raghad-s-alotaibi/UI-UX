@@ -1,14 +1,10 @@
 * {
-    padding: 0px;
-    margin: 0px;
     font-family: 'Inconsolata', monospace;
     font-family: 'Nanum Pen Script', cursive;
 }
 
 .container {
-    margin: 0 auto;
-    margin-top: 3%;
-    width: 70vw;
+    background-color: #f1f1f1;
 }
 
 .header {
@@ -33,7 +29,6 @@
     background-color: rgba(243, 239, 247, 0.8);
     border: 1.5px solid rgba(218, 218, 218, 0.8);
     padding: 5px;
-    font-size: 30px;
     text-align: center;
     margin: 2px;
 }
@@ -42,7 +37,6 @@
     background-color: rgba(232, 241, 248, 0.8);
     border: 1.5px solid rgba(218, 218, 218, 0.8);
     padding: 10px;
-    font-size: 30px;
     text-align: center;
     margin: 2px;
 }
