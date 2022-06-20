@@ -1,0 +1,13 @@
+.header {
+    background-color: rgb(178, 178, 178);
+    height: 50px;
+}
+
+body {
+    background-color: rgb(66, 66, 66);
+}
+
+.content {
+    border: 1px solid rgb(215, 12, 12);
+    background-color: #fff;
+}
