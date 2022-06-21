@@ -3,6 +3,7 @@
     height: 50px;
 }
 
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -12,17 +13,13 @@ body {
     background-color: #fff;
 }
 
-.head-bar {
-    height: 60px;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-}
 
 .banner {
     width: 100%;
     background-size: cover;
     font-size: 80px;
     color: rgb(72, 72, 72);
-    text-align: center;
+    /* text-align: center; */
     padding: 40px 15px;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
@@ -51,7 +48,35 @@ body {
 }
 
 .what-you-will-learn {
-    display: flex;
-    margin: 1%;
     padding: 2%;
+    border: 1px solid #333;
+    border-radius: 1%;
+
+}
+
+.what-you-will-learn-list {
+    column-count: 2;
+}
+
+.what-you-will-learn-list li {
+    padding: 1%;
+    list-style-type: none;
+    padding-left: 2.5em;
+    background-image: url('done_FILL0_wght400_GRAD0_opsz48.svg');
+    background-size: 1.5em;
+    background-repeat: no-repeat;
+    font-size: 14pt;
+    font-weight: 450;
+    /* list-style-image: url('done_FILL0_wght400_GRAD0_opsz48.svg'); */
+
+}
+
+.white-space {
+    margin: 7% 0;
+}
+
+.white-space ul,
+p {
+    font-size: 14pt;
+    font-weight: 450;
 }

@@ -13,85 +13,102 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">JavaScript</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#wywl">What You Will Learn</a>
+                        <a class="nav-link" href="#req">Requirements</a>
+                        <a class="nav-link" href="#desc">Description</a>
+                        <a class="nav-link" href="#wtcif">Who this course is for?</a>
 
-        <div class="header">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">JavaScript</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Features</a>
-                            <a class="nav-link" href="#">Pricing</a>
-
-                        </div>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
         <div class="banner mt-3 mb-3">
-            <h1>The Complete JavaScript Course 2022: From Zero to Expert!</h1>
+            <h1>The Complete JavaScript Course 2022:<br> From Zero to Expert!</h1>
         </div>
+
         <div class="row">
             <div class="col-9 mt-3">
                 <div class="content">
-                    <h1>What you'll learn</h1>
-                    <ul class="what-you-will-learn">
-                        <div>
-                            <li>Become an advanced, confident, and modern JavaScript developer from scratch</li>
-                            <li>Build 6 beautiful real-world projects for your portfolio (not boring toy apps)</li>
-                            <li>Become job-ready by understanding how JavaScript really works behind the scenes</li>
-                            <li>How to think and work like a developer: problem-solving, researching, workflows</li>
-                            <li>JavaScript fundamentals: variables, if/else, operators, boolean logic, functions,
-                                arrays,
-                                objects, loops, strings, etc.</li>
-                        </div>
-                        <div>
-                            <li>Modern ES6+ from the beginning: arrow functions, destructuring, spread operator,
-                                optional
-                                chaining (ES2020), etc.</li>
-                            <li>Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.</li>
-                            <li>Complex concepts like the 'this' keyword, higher-order functions, closures, etc.</li>
-                            <li>Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs</li>
-                            <li>How to architect your code using flowcharts and common patterns</li>
-                        </div>
-                    </ul>
-                    <h1>Requirements</h1>
-                    <ul>
-                        <li>No coding experience is necessary to take this course! I take you from beginner to expert!
-                        </li>
-                        <li>Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor the
-                            course.</li>
-                        <li>A basic understanding of HTML and CSS is a plus, but not a must! The course includes an HTML
-                            and CSS crash course.</li>
-                    </ul>
-                    <h1>Description</h1>
-                    <p>*** The #1 bestselling JavaScript course on Udemy! ***
-
-                        *** Just updated for latest ES2021 and ES2022 features ***
-
-                        "Really, really well made course. Super in-depth, with great challenges and projects that
-                        will solidify your Javascript understanding. I found the lectures were paced perfectly --
-                        Jonas doesn't skip over anything that might be useful to a JS developer" — Carson
-                        Bartholomew</p>
-                    <h1>Who this course is for:</h1>
-                    <ul>
-                        <li>Take this course if you want to gain a true and deep understanding of JavaScript</li>
-                        <li>Take this course if you have been trying to learn JavaScript but: 1) still don't really
-                            understand JavaScript, or 2) still don't feel confident to code real apps</li>
-                        <li>Take this course if you're interested in using a library/framework like React, Angular, Vue
-                            or Node in the future</li>
-                        <li>Take this course if you already know JavaScript and are looking for an advanced course. This
-                            course includes expert topics!</li>
-                        <li>Take this course if you want to get started with programming: JavaScript is a great first
-                            language!</li>
-                    </ul>
+                    <div class="what-you-will-learn m-2" id="wywl">
+                        <h3>What you'll learn</h3>
+                        <ul class="what-you-will-learn-list">
+                            <div>
+                                <li>Become an advanced, confident, and modern JavaScript developer from scratch</li>
+                                <li>Build 6 beautiful real-world projects for your portfolio (not boring toy apps)</li>
+                                <li>Become job-ready by understanding how JavaScript really works behind the scenes</li>
+                                <li>How to think and work like a developer: problem-solving, researching, workflows</li>
+                                <li>JavaScript fundamentals: variables, if/else, operators, boolean logic, functions,
+                                    arrays,
+                                    objects, loops, strings, etc.</li>
+                            </div>
+                            <div>
+                                <li>Modern ES6+ from the beginning: arrow functions, destructuring, spread operator,
+                                    optional
+                                    chaining (ES2020), etc.</li>
+                                <li>Modern OOP: Classes, constructors, prototypal inheritance, encapsulation, etc.</li>
+                                <li>Complex concepts like the 'this' keyword, higher-order functions, closures, etc.
+                                </li>
+                                <li>Asynchronous JavaScript: Event loop, promises, async/await, AJAX calls and APIs</li>
+                                <li>How to architect your code using flowcharts and common patterns</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="white-space" id="req">
+                        <h2>Requirements</h2>
+                        <ul>
+                            <li>No coding experience is necessary to take this course! I take you from beginner to
+                                expert!
+                            </li>
+                            <li>Any computer and OS will work — Windows, macOS or Linux. We will set up your text editor
+                                the
+                                course.</li>
+                            <li>A basic understanding of HTML and CSS is a plus, but not a must! The course includes an
+                                HTML
+                                and CSS crash course.</li>
+                        </ul>
+                    </div>
+                    <div class="white-space" id="desc">
+                        <h2 id="wtcif">Description</h2>
+                        <p> <em>*** The #1 bestselling JavaScript course on Udemy! ***</em>
+                            <br>
+                            "Really, really well made course. Super in-depth, with great challenges and projects that
+                            will solidify your Javascript understanding. I found the lectures were paced perfectly --
+                            the Instrecter doesn't skip over anything that might be useful to a JS developer"
+                            <strong><em>—
+                                    Carson
+                                    Bartholomew</em></strong>
+                        </p>
+                    </div>
+                    <div class="white-space">
+                        <h2>Who this course is for:</h2>
+                        <ul>
+                            <li>Take this course if you want to gain a true and deep understanding of JavaScript</li>
+                            <li>Take this course if you have been trying to learn JavaScript but: 1) still don't really
+                                understand JavaScript, or 2) still don't feel confident to code real apps</li>
+                            <li>Take this course if you're interested in using a library/framework like React, Angular,
+                                Vue
+                                or Node in the future</li>
+                            <li>Take this course if you already know JavaScript and are looking for an advanced course.
+                                This
+                                course includes expert topics!</li>
+                            <li>Take this course if you want to get started with programming: JavaScript is a great
+                                first
+                                language!</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-3">
