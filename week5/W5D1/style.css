@@ -4,10 +4,54 @@
 }
 
 body {
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(255, 255, 255);
 }
 
 .content {
-    border: 1px solid rgb(215, 12, 12);
+    /* border: 1px solid rgb(215, 12, 12); */
     background-color: #fff;
+}
+
+.head-bar {
+    height: 60px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.banner {
+    width: 100%;
+    background-size: cover;
+    font-size: 80px;
+    color: rgb(72, 72, 72);
+    text-align: center;
+    padding: 40px 15px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.big-text {
+    font-size: 130px;
+    font-weight: 800;
+    animation-delay: 1s;
+}
+
+.banner a {
+    display: inline-block;
+    background: #fff;
+    color: #36465d;
+    text-transform: uppercase;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 40px;
+    transition: .3s;
+}
+
+.banner a:hover {
+    background: #333;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.what-you-will-learn {
+    display: flex;
+    margin: 1%;
+    padding: 2%;
 }
