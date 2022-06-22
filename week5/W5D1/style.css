@@ -1,11 +1,15 @@
-.header {
-    background-color: rgb(178, 178, 178);
-    height: 50px;
+body,
+html {
+    height: 100%;
 }
-
 
 body {
     background-color: rgb(255, 255, 255);
+}
+
+.header {
+    background-color: rgb(178, 178, 178);
+    height: 50px;
 }
 
 .content {
@@ -13,44 +17,14 @@ body {
     background-color: #fff;
 }
 
-
-.banner {
-    width: 100%;
-    background-size: cover;
-    font-size: 80px;
-    color: rgb(72, 72, 72);
-    /* text-align: center; */
-    padding: 40px 15px;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-}
-
-.big-text {
-    font-size: 130px;
-    font-weight: 800;
-    animation-delay: 1s;
-}
-
-.banner a {
-    display: inline-block;
-    background: #fff;
-    color: #36465d;
-    text-transform: uppercase;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 40px;
-    transition: .3s;
-}
-
-.banner a:hover {
-    background: #333;
-    color: #fff;
-    padding: 15px 20px;
+.container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .what-you-will-learn {
     padding: 2%;
-    border: 1px solid #333;
-    border-radius: 1%;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 0.5%;
 
 }
 
@@ -67,16 +41,128 @@ body {
     background-repeat: no-repeat;
     font-size: 14pt;
     font-weight: 450;
-    /* list-style-image: url('done_FILL0_wght400_GRAD0_opsz48.svg'); */
 
 }
 
 .white-space {
-    margin: 7% 0;
+    margin: 7% 2%;
 }
 
 .white-space ul,
 p {
     font-size: 14pt;
     font-weight: 450;
+}
+
+.card {
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px; */
+}
+
+a#buy {
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0px auto;
+    margin-top: 3%;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("html.avif"); */
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    /*Fallback if gradeints don't work */
+    background: #9b59b6;
+    /*Linear gradient... */
+    background:
+        radial-gradient(at center, #3498db, #9b59b6);
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.button {
+    transform: skew(0deg, -10deg);
+    font-weight: 600;
+    border: 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 9%;
+    padding: 10px 20px 10px 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button-yellow {
+    background: #ffc600;
+    color: #333;
+}
+
+.button-yellow:hover {
+    background: #333;
+    color: #ffc600;
+    border: 1px dashed #ffc600;
+}
+
+.card-sale-img-top {
+    margin-top: -32%;
+}
+
+.card-free-img-top {
+    margin-top: -24%;
+}
+
+.button-white {
+    background: #fff;
+    color: #333;
+}
+
+.button-white:hover {
+    background: #333;
+    color: #fff;
+    border: 1px dashed #fff;
+}
+
+.top-companies {
+    padding: 2%;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 0.5%;
+}
+
+.com-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+h6 {
+    margin-top: 8%;
+}
+
+.radial-gradient {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50%;
+
+    /*Fallback if gradeints don't work */
+    background: #9b59b6;
+    /*Linear gradient... */
+    background:
+        radial-gradient(at center, #3498db, #9b59b6);
 }

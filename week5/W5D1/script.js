@@ -1,8 +1,9 @@
-const collapseElementList = document.querySelectorAll('.collapse')
-const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl))
-
-
-  import { Toast } from 'bootstrap.esm.min.js'
-
-  Array.from(document.querySelectorAll('.toast'))
-    .forEach(toastNode => new Toast(toastNode))
+$(document).mousemove(function(event) {
+  windowWidth = $(window).width();
+  windowHeight = $(window).height();
+  
+  mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
+  mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
+  
+  $('.hero-image').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #3498db, #9b59b6)');
+});
