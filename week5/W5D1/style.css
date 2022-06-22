@@ -23,8 +23,14 @@ body {
 
 .what-you-will-learn {
     padding: 2%;
-    border: 1px solid rgb(192, 192, 192);
     border-radius: 0.5%;
+    padding: 1rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image:
+        linear-gradient(to bottom,
+            #9b59b6,
+            rgba(0, 0, 0, 0)) 1 100%;
 
 }
 
@@ -54,10 +60,6 @@ p {
     font-weight: 450;
 }
 
-.card {
-    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px; */
-}
-
 a#buy {
     display: block;
     text-align: center;
@@ -70,8 +72,6 @@ a#buy {
 }
 
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("html.avif"); */
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -139,9 +139,9 @@ a#buy {
 }
 
 .top-companies {
-    padding: 2%;
-    border: 1px solid rgb(192, 192, 192);
     border-radius: 0.5%;
+    padding: 1rem;
+    border: 1px solid rgb(192, 192, 192);
 }
 
 .com-img {
@@ -165,4 +165,9 @@ h6 {
     /*Linear gradient... */
     background:
         radial-gradient(at center, #3498db, #9b59b6);
+}
+
+footer {
+    background-color: #9d88a5;
+    color: #fff;
 }
