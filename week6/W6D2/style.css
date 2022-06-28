@@ -1,8 +1,21 @@
-.material-symbols-outlined {
-    color: brown;
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
+.fade-in-text {
+    font-family: Arial;
+    font-size: 150px;
+    animation: fadeIn 5s;
 }
+
+h1 {
+    color: rgb(53, 53, 53);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.ml {}
