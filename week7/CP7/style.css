@@ -1,0 +1,286 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant SC', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    font-weight: 900;
+    color: #222;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+img {
+    vertical-align: middle;
+}
+
+/*Header*/
+.header {
+    height: 15vh;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    padding: 0.5% 2%;
+}
+
+.header-content {
+    margin-top: 2%;
+}
+
+/*Body*/
+.intro {
+    height: 100vh;
+    background-color: #a99d8e;
+    padding-top: 6%;
+}
+
+.intro p {
+    font-size: 15pt;
+    margin-left: 3%;
+}
+
+.sectionOne {
+    height: 100vh;
+    background-color: #CCC8C3;
+}
+
+.sectionTwo {
+    height: 100vh;
+}
+
+.sectionThree {
+    height: 100vh;
+    background-color: #CCC8C3;
+}
+
+.gallry {
+    height: 100%;
+}
+
+.gallry2 {
+    height: 100vh;
+    background-color: #0E2344;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.gallry2-img {
+    width: 100%;
+}
+
+.gallry2-m {
+    margin-left: 15%;
+}
+
+.contact-page {
+    height: 100vh;
+    padding: 5%;
+}
+
+.contact-content {
+    margin: 15%;
+}
+
+.new-work {
+    text-align: center;
+    padding: 2%;
+
+}
+
+.first-work {
+    text-align: center;
+}
+
+.first-work img {
+    width: 450%;
+}
+
+.first-work p {
+    margin-left: 200%;
+    padding-top: 6%;
+}
+
+.second-work p {
+    margin-left: 100%;
+    padding-top: 2%;
+}
+
+.thrid-work img {
+    margin-left: 70%;
+    width: 150%;
+}
+
+.thrid-work p {
+    margin-left: 135%;
+    padding-top: 2%;
+}
+
+/*Slideshow*/
+* {
+    box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 70%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 160%;
+    padding: 12px;
+    border: 1px none #ccc;
+    border-bottom: 1px solid #222;
+    border-radius: 0px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ffffff00;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: 1px solid #222;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    padding-top: 3%;
+    margin-top: 5%;
+}
+
+.from-left {
+    transform: translateX(-50%);
+
+}
+
+.from-right {
+    transform: translateX(50%);
+}
+
+.from-buttom {
+    transform: translateY(-50%)
+}
+
+.from-left,
+.from-right,
+.from-buttom {
+    transition: transform 750ms ease-in;
+}
+
+.from-left.appear,
+.from-right.appear {
+    transform: translateX(0);
+}
+
+.from-buttom.appear {
+    transform: translateY(0);
+
+}
