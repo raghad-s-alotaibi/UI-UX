@@ -1,0 +1,13 @@
+.section-1 {
+    height: 15vw;
+    background-color: rgb(255, 254, 186);
+    padding-top: 3%;
+}
+
+.alrt {
+    background-color: #fff;
+    padding: 0.3%;
+    margin: 0% 7%;
+    border: 3px solid;
+    border-color: rgb(202, 169, 93);
+}
