@@ -1,13 +1,179 @@
-.section-1 {
-    height: 15vw;
-    background-color: rgb(255, 254, 186);
-    padding-top: 3%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
-.alrt {
-    background-color: #fff;
-    padding: 0.3%;
-    margin: 0% 7%;
-    border: 3px solid;
-    border-color: rgb(202, 169, 93);
+body {
+    min-height: 100vh;
+    background: linear-gradient(#240b4d, #a2b4db);
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #fff;
+    color: #2b1055;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 1000;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img#moon {
+    mix-blend-mode: screen;
+}
+
+section img#mountains_front {
+    z-index: 10;
+}
+
+#text {
+    position: absolute;
+    right: -350px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
+
+#small-text {
+    position: absolute;
+    right: -100px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.0vw;
+    z-index: 9;
+    color: #7597de;
+}
+
+#btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 48px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+
+}
+
+.sec h3 {
+    margin-top: 2%;
+    font-size: 3em;
+    margin-bottom: 5%;
+    color: #fff;
+}
+
+.sec h4 {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 2%;
+}
+
+.icon {
+    margin: 5%;
+    width: 50px;
+    height: 50px;
+    color: #bcacd5;
+}
+
+.col-sm-4 {
+    padding: 3%;
+}
+
+.sec2 {
+    background-image: url(stars.png);
+    height: 50vh;
+    color: #fff;
+
+}
+
+.table {
+    margin-top: 5%;
+    color: #fff;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #bcacd5;
 }
