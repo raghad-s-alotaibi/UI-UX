@@ -188,7 +188,7 @@ ol {
 	top: 0;
 	left: 0;
 	z-index: 999999;
-	background: #000;
+	background: #D3B5E5;
 }
 
 .loader {
@@ -324,7 +324,7 @@ ol {
 }
 
 .header__top {
-	background: #111111;
+	background: #F8C0C8;
 	padding: 10px 0;
 }
 
@@ -454,7 +454,7 @@ ol {
 	left: 0;
 	top: 56px;
 	width: 150px;
-	background: #111111;
+	background: #FFAEBC;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
@@ -497,7 +497,7 @@ ol {
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: #e53637;
+	background: #FFAEBC;
 	content: "";
 	-webkit-transition: all, 0.5s;
 	-o-transition: all, 0.5s;
@@ -593,7 +593,7 @@ ol {
 }
 
 .hero__text h6 {
-	color: #e53637;
+	color: #785090;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -622,7 +622,7 @@ ol {
 }
 
 .hero__text p {
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 28px;
 	margin-bottom: 35px;
 	position: relative;
@@ -631,6 +631,7 @@ ol {
 	-webkit-transition: all, 0.9s;
 	-o-transition: all, 0.9s;
 	transition: all, 0.9s;
+	color: rgb(255, 255, 255);
 }
 
 .hero__text .primary-btn {
@@ -750,7 +751,7 @@ ol {
 -----------------------*/
 
 .categories {
-	background: #f3f2ee;
+	background: #ffeef1;
 	overflow: hidden;
 	padding-top: 150px;
 	padding-bottom: 125px;
@@ -904,7 +905,7 @@ ol {
 }
 
 .instagram__text h3 {
-	color: #e53637;
+	color: #BBE7FE;
 	font-weight: 700;
 }
 
@@ -1942,7 +1943,7 @@ ol {
 -----------------------*/
 
 .footer {
-	background: #111111;
+	background: #ECE3F0;
 	padding-top: 70px;
 }
 
@@ -1952,6 +1953,7 @@ ol {
 
 .footer__about .footer__logo {
 	margin-bottom: 30px;
+	font-size: 20pt;
 }
 
 .footer__about .footer__logo a {
@@ -1959,7 +1961,7 @@ ol {
 }
 
 .footer__about p {
-	color: #b7b7b7;
+	color: #232323;
 	margin-bottom: 30px;
 }
 
@@ -1982,12 +1984,12 @@ ol {
 }
 
 .footer__widget ul li a {
-	color: #b7b7b7;
+	color: #444444;
 	font-size: 15px;
 }
 
 .footer__widget .footer__newslatter p {
-	color: #b7b7b7;
+	color: #0f0f0f;
 }
 
 .footer__widget .footer__newslatter form {
@@ -2059,7 +2061,7 @@ ol {
 -----------------------*/
 
 .breadcrumb-option {
-	background: #f3f2ee;
+	background: #ECE3F0;
 	padding: 40px 0;
 }
 
@@ -2150,7 +2152,7 @@ ol {
 -----------------------*/
 
 .testimonial {
-	background: #f3f2ee;
+	background: #fbf3fe;
 }
 
 .testimonial__text {
@@ -2159,7 +2161,7 @@ ol {
 }
 
 .testimonial__text span {
-	color: #e53637;
+	color: #F8C0C8;
 	font-size: 72px;
 }
 
@@ -2527,8 +2529,8 @@ ol {
 .coupon__code {
 	color: #0d0d0d;
 	font-size: 14px;
-	border-top: 2px solid #77b527;
-	background: #f5f5f5;
+	border-top: 2px solid #D3BBDD;
+	background: #ECE3F0;
 	padding: 23px 30px 18px;
 	margin-bottom: 50px;
 }
@@ -2650,7 +2652,7 @@ ol {
 }
 
 .checkout__order {
-	background: #f3f2ee;
+	background: #ECE3F0;
 	padding: 30px;
 }
 
@@ -2926,7 +2928,7 @@ ol {
 -----------------------*/
 
 .blog-hero {
-	background: #f3f2ee;
+	background: #ECE3F0;
 	padding-top: 125px;
 	padding-bottom: 190px;
 }
@@ -3510,7 +3512,7 @@ ol {
 		top: 0;
 		height: 100%;
 		width: 100%;
-		background: rgba(0, 0, 0, 0.7);
+		background: #FFAEBC;
 		content: "";
 		z-index: 98;
 		-webkit-transition: all, 0.5s;
@@ -3566,7 +3568,7 @@ ol {
 	.slicknav_nav a {
 		padding: 7px 0;
 		margin: 0;
-		color: #111111;
+		color: #FFAEBC;
 		font-weight: 600;
 	}
 
