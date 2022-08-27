@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+h1 {
+    font-size: 50pt;
+    color: #5F7161;
+}
+
+p,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Space Mono', monospace;
+
+}
+
+.w3-tag {
+    background-color: #6D8B74
+}
+
+
+footer {
+    background-color: #D0C9C0;
+}
+
+.w3-light-grey {
+    background-color: #FCF8E8;
+}
+
+.green {
+    background-color: #6D8B74;
+    color: #fff;
+}
+
+.brown {
+    background-color: #5F7161;
+    color: #fff;
+}
